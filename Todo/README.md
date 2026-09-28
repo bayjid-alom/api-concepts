@@ -1,4 +1,4 @@
-### 🔀 Ternary Operator — Practical Example
+### 📌 Ternary Operator — Practical Example
 
 `todo.completed` এর value `true` হলে **completed icon** এবং `false` হলে **incomplete icon** দেখানো হয়েছে। এখানে Ternary Operator ব্যবহার করে condition অনুযায়ী দুইটি HTML element-এর মধ্যে একটি dynamically render করা হচ্ছে।
 

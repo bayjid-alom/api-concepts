@@ -71,7 +71,6 @@
 সহজভাবে, frontend থেকে server-এর কাছে কোনো data চাইলে বা data পাঠালে API সেই communication-এর মাধ্যম হিসেবে কাজ করে।
 
 ---
----
 
 
 ### ❔ JSON কী?
@@ -90,7 +89,6 @@ JSON :
 }
 ```
 
----
 ---
 
 
@@ -116,7 +114,7 @@ Object
 JSON String
 ```
 
-</details><br>
+</details>
 
 
 
@@ -142,7 +140,7 @@ JSON String
 Object
 ```
 
-</details> <br>
+</details>
 
 
 
@@ -221,16 +219,11 @@ console.log(data)
 </details><br>
 
 > Extension : JSON Viewer Pro 
-<br>
+
 
 ---
----
 
 
-
-
-
-<br>
 
 <details>
 <summary> 🧠 Quick Notes </summary>
@@ -251,3 +244,20 @@ console.log(data)
 
 
 </details>
+
+
+
+
+
+<br>
+
+
+
+
+### 👨‍💻 About Me
+
+**Bayjid Alom**
+
+> Passionate about learning new technologies and improving my skills through continuous practice and real-world projects.
+
+

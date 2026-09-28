@@ -18,7 +18,7 @@
 
 **503 — Service Unavailable** → The server is temporarily unable to handle the request.
 
-</details><br>
+</details>
 
 ---
 
@@ -69,6 +69,8 @@ API-এর সাথে কাজ করার সময় আমরা বিভ�
     DELETE  → মুছে ফেলা
 
 ---
+
+
 
 <details>
 <summary>❓ GET — Data নেওয়া</summary>
@@ -132,7 +134,8 @@ API-এর সাথে কাজ করার সময় আমরা বিভ�
 
 <br>
 
----
+
+
 
 <details>
 <summary>❓ POST — নতুন Data তৈরি করা</summary>
@@ -205,7 +208,6 @@ API-এর সাথে কাজ করার সময় আমরা বিভ�
 
 <br>
 
----
 
 <details>
 <summary>❓ PUT — সম্পূর্ণ Data Update করা</summary>
@@ -277,7 +279,7 @@ API-এর সাথে কাজ করার সময় আমরা বিভ�
 
 <br>
 
----
+
 
 <details>
 <summary>❓ PATCH — নির্দিষ্ট Data Update করা</summary>
@@ -357,7 +359,7 @@ API-এর সাথে কাজ করার সময় আমরা বিভ�
 
 <br>
 
----
+
 
 <details>
 <summary>❓ DELETE — Data মুছে ফেলা</summary>
@@ -418,8 +420,8 @@ API-এর সাথে কাজ করার সময় আমরা বিভ�
 
 </details>
 
-<br>
 
+---
 ---
 
 ## ⚙️ PUT vs PATCH
@@ -604,3 +606,16 @@ HTTP Methods-এর সাথে এগুলোকে সাধারণভা�
 ---
 
 > 🌐 **HTTP Methods → API-এর সাথে Client এবং Server-এর communication বোঝার অন্যতম গুরুত্বপূর্ণ foundation।**
+
+<br>
+
+
+
+
+
+### 👨‍💻 About Me
+
+**Bayjid Alom**
+
+> Passionate about learning new technologies and improving my skills through continuous practice and real-world projects.
+

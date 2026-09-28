@@ -525,3 +525,14 @@ JSON → Structured data exchange-এর format।
 ```
 
 </details>
+
+<br>
+
+
+
+
+### 👨‍💻 About Me
+
+**Bayjid Alom**
+
+> Passionate about learning new technologies and improving my skills through continuous practice and real-world projects.
