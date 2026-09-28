@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            padding: 45px 0;
+            font-family: Arial, sans-serif;
+            color: #e2e8f0;
+            background:
+                radial-gradient(circle at top left, #172554, transparent 35%),
+                radial-gradient(circle at bottom right, #312e81, transparent 30%),
+                #080b14;
+        }
+
+        .heading {
+            width: 60%;
+            margin: 0 auto 25px;
+        }
+
+        .title {
+            color: #f8fafc;
+            font-size: 28px;
+            letter-spacing: -0.5px;
+        }
+
+        #todo-container {
+            width: 60%;
+            margin: auto;
+            display: grid;
+            gap: 12px;
+        }
+
+        .todo-card {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 18px;
+            border: 1px solid #1e293b;
+            border-radius: 12px;
+            background: #0f172acc;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 25px #00000026;
+            transition: 0.3s ease;
+        }
+
+        .todo-card:hover {
+            border-color: #6366f180;
+            background: #111936;
+            transform: translateX(5px);
+            box-shadow: 0 12px 30px #00000040;
+        }
+
+        .todo-card p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            color: #818cf8;
+            font-size: 18px;
+        }
+
+        .todo-card h4 {
+            color: #cbd5e1;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 576px) {
+            body {
+                padding: 30px 0;
+            }
+
+            .heading,
+            #todo-container {
+                width: 92%;
+            }
+
+            .title {
+                font-size: 24px;
+            }
+
+            .todo-card {
+                padding: 13px 15px;
+            }
+
+            .todo-card h4 {
+                font-size: 13px;
+            }
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+
+    <div class="heading">
+        <h2 class="title">All Todo</h2>
+    </div>
+
+
+    <section id="todo-container">
+
+    </section>
+
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
